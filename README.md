@@ -47,21 +47,21 @@ Once the project is successfully running, you can use the API with Postman or an
 
 - **List All Books**:
     - **HTTP Method**: GET
-    - **Endpoint**: **`/api/books`**
+    - **Endpoint**: **`/api/kitaplar`**
     - Lists all books.
 - **Get a Specific Book**:
     - **HTTP Method**: GET
-    - **Endpoint**: **`/api/books/{id}`**
+    - **Endpoint**: **`/api/kitaplar/{id}`**
     - Retrieves a specific book by ID.
 - **Add a New Book**:
     - **HTTP Method**: POST
-    - **Endpoint**: **`/api/books`**
+    - **Endpoint**: **`/api/kitaplar`**
     - Adds a new book.
 - **Update a Book**:
     - **HTTP Method**: PUT
-    - **Endpoint**: **`/api/books/{id}`**
+    - **Endpoint**: **`/api/kitaplar/{id}`**
     - Updates an existing book.
 - **Delete a Book**:
     - **HTTP Method**: DELETE
-    - **Endpoint**: **`/api/books/{id}`**
+    - **Endpoint**: **`/api/kitaplar/{id}`**
     - Deletes an existing book.
